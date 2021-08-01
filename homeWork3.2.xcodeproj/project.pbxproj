@@ -11,6 +11,10 @@
 		7A81250126B5036A00BE59D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81250026B5036A00BE59D0 /* ContentView.swift */; };
 		7A81250326B5036C00BE59D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A81250226B5036C00BE59D0 /* Assets.xcassets */; };
 		7A81250626B5036C00BE59D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A81250526B5036C00BE59D0 /* Preview Assets.xcassets */; };
+		7A81250E26B503B100BE59D0 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81250D26B503B100BE59D0 /* ColorSlider.swift */; };
+		7A81251026B503BF00BE59D0 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81250F26B503BF00BE59D0 /* ColorView.swift */; };
+		7A81251226B503E700BE59D0 /* ColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81251126B503E700BE59D0 /* ColorLabel.swift */; };
+		7A81251426B5040500BE59D0 /* ColorValueTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81251326B5040500BE59D0 /* ColorValueTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7A81250226B5036C00BE59D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A81250526B5036C00BE59D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A81250726B5036C00BE59D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A81250D26B503B100BE59D0 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		7A81250F26B503BF00BE59D0 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		7A81251126B503E700BE59D0 /* ColorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLabel.swift; sourceTree = "<group>"; };
+		7A81251326B5040500BE59D0 /* ColorValueTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				7A81250026B5036A00BE59D0 /* ContentView.swift */,
 				7A81250226B5036C00BE59D0 /* Assets.xcassets */,
 				7A81250726B5036C00BE59D0 /* Info.plist */,
+				7A81250F26B503BF00BE59D0 /* ColorView.swift */,
+				7A81251126B503E700BE59D0 /* ColorLabel.swift */,
+				7A81251326B5040500BE59D0 /* ColorValueTF.swift */,
+				7A81250D26B503B100BE59D0 /* ColorSlider.swift */,
 				7A81250426B5036C00BE59D0 /* Preview Content */,
 			);
 			path = homeWork3.2;
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A81251026B503BF00BE59D0 /* ColorView.swift in Sources */,
 				7A81250126B5036A00BE59D0 /* ContentView.swift in Sources */,
+				7A81250E26B503B100BE59D0 /* ColorSlider.swift in Sources */,
+				7A81251226B503E700BE59D0 /* ColorLabel.swift in Sources */,
 				7A8124FF26B5036A00BE59D0 /* homeWork3_2App.swift in Sources */,
+				7A81251426B5040500BE59D0 /* ColorValueTF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
